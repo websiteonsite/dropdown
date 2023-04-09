@@ -1,0 +1,66 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Gill Sans Extrabold', sans-serif;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* App component style */
+.app{
+  height: 60vh;
+  border-radius: 15px;
+  background-color: #5b34c5;
+  padding: 20px 40px;
+  position: relative;
+}
+
+.ans-p{
+  position: absolute;
+  bottom: 20px;
+  color: white
+}
+
+/* Home component style */
+.home h1{
+  color: white;
+}
+.home button{
+  margin: 20px 0px;
+  width: 400px;
+  border-radius: 10px;
+  color: #2929ab;
+  background-color: white;
+  padding: 10px 20px;
+  border: 0px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Dropdown component style */
+.dropdown{
+  border-radius: 10px;
+  width: 400px;
+  background-color: white;
+  padding: 10px 20px;
+}
+.dropdown p{
+  width: 100%;
+  font-size: 18px;
+  color: #2929ab;
+  margin: 8px 0px;
+  cursor: pointer;
+}
+.dropdown p:hover{
+  background-color:rgb(93, 126, 173);
+  border-radius: 10px;
+  color: white;
+  padding: 8px;
+}
